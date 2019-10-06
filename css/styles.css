@@ -1,0 +1,67 @@
+@import url("/css/bootstrap.css");
+body {
+    font-family: 'Inter-Loom' sans-serif;
+}
+
+nav {
+    color: white;
+}
+
+.navbar-brand-main {
+    color: white;
+    width: 22em;
+}
+
+.navbar-brand-secondary {
+    color: white;
+    width: 8em;
+}
+
+.category-header {
+    color: gray;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.image-text {
+    position: relative;
+    bottom: 1.5em;
+    left: 0;
+    z-index: 1060;
+    background: lightgray;
+    width: fit-content;
+    padding: 0 0.5em 0 0.5em;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.circle-passport {
+    height: 4em;
+    height: 4em;
+    border-radius: 2em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+.opinion-grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.opinion-grid>img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+.opinion-grid>p {
+    grid-column-start: 2;
+}
+
+.opinion-grid>a:hover {
+    color: rgb(255, 0, 0);
+}
