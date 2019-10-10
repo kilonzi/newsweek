@@ -11,7 +11,7 @@ The project will use Bootstrap 4 (One of the most widely used CSS framework) to 
 # Final Product
 Fair Warning: The final product will look like in the below image but the wordings might change
 
-![The mobile version of the site](https://user-images.githubusercontent.com/9586665/66145143-dd69a980-e612-11e9-8de7-5dd900cee487.png)
+![The mobile version of the site](https://user-images.githubusercontent.com/9586665/66577288-c6323b00-eb81-11e9-920b-7d89a287c334.png)
 
 # Contribute
 
