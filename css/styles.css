@@ -1,6 +1,11 @@
 @import url("/css/bootstrap.css");
+html,
 body {
-    font-family: 'Inter-Loom' sans-serif;
+    font-family: 'Inter-Loom' sans-serif !important;
+    margin: 0;
+    height: 100%;
+    font-size: 90%;
+    overflow-x: hidden;
 }
 
 nav {
@@ -64,4 +69,110 @@ h5 {
 
 .opinion-grid>a:hover {
     color: rgb(255, 0, 0);
+}
+
+.featured {
+    background: lightgray;
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background: lightgray;
+    width: 100%;
+}
+
+.featured-article {
+    grid-area: span 1 / span 1;
+    padding: 0 0.5em;
+}
+
+.featured-article>img {
+    width: 100%;
+    padding: 0.2em;
+}
+
+.d-flex>.img-fluid {
+    width: 8em;
+    height: auto;
+}
+
+.more-stories-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.scroll-end {
+    overflow-y: scroll;
+    position: relative;
+}
+
+.img-fluid-1 {
+    padding: 0.2em;
+}
+
+.img-fluid-2 {
+    max-width: 10em;
+    height: 100% !important;
+}
+
+.icon-newsweek {
+    -webkit-flex: none;
+    flex: none;
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.count-link {
+    width: 70px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
+}
+
+.image {
+    position: relative;
+}
+
+.subscribe-grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.subscribe-img {
+    /* z-index: 2; */
+    position: relative;
+    left: 50%;
+    bottom: 40%;
+}
+
+.newsletter-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.brand>svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
+.social>li {
+    padding-left: 0.5em;
 }
