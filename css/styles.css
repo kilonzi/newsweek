@@ -4,7 +4,7 @@ body {
     font-family: 'Inter-Loom' sans-serif !important;
     margin: 0;
     height: 100%;
-    font-size: 90%;
+    font-size: 95%;
     overflow-x: hidden;
 }
 
@@ -24,7 +24,7 @@ nav {
 
 .category-header {
     color: gray;
-    font-size: 0.8em;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
@@ -147,6 +147,10 @@ h5 {
     position: relative;
 }
 
+.subscribe {
+    height: 90%;
+}
+
 .subscribe-grid {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -175,4 +179,15 @@ h5 {
 
 .social>li {
     padding-left: 0.5em;
+}
+
+.col2 {
+    position: relative;
+    z-index: -20;
+}
+
+.col1,
+.col3 {
+    position: relative;
+    z-index: -20;
 }

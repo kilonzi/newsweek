@@ -1,8 +1,8 @@
 @font-face {
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
     font-family: 'Inter-Loom';
-    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+    src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2') !important;
 }
 
 @font-face {
