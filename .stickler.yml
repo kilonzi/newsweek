@@ -5,5 +5,7 @@ linters:
 files:
     ignore:
        - 'css/reset.css'
+       - 'css/bootstrap.css'
+       - 'css/fonts.css'
 fixers:
     enable: true       
