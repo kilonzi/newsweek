@@ -1,9 +1,38 @@
+@media only screen and (max-width: 767.99999999px) {
+    .first {
+        order: 1;
+    }
+    .second {
+        order: 2;
+    }
+    .third {
+        order: 3;
+    }
+    .fourth {
+        order: 4;
+    }
+    .featured-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto !important;
+        background: lightgray;
+        width: 100%;
+    }
+    .featured-article {
+        grid-column: 1 / span 2 !important;
+    }
+    .max-image-size {
+        max-width: 252px;
+        max-height: 172px;
+        padding-right: 2em;
+    }
+}
+
 @media only screen and (max-width: 991.999998px) {
     .hidden-md-down {
         display: none !important;
         visibility: hidden;
     }
-
     .inline-md-down {
         display: -webkit-inline-box;
         padding-right: 2em;
@@ -15,11 +44,9 @@
         display: none !important;
         visibility: hidden;
     }
-
     nav {
         min-height: 6em;
     }
-
     svg {
         min-height: 60px;
     }
@@ -32,6 +59,16 @@ body {
     height: 100%;
     font-size: 95%;
     overflow-x: hidden;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
 }
 
 nav {
@@ -118,6 +155,10 @@ h5 {
     padding: 0.2em;
 }
 
+.img-fluid {
+    width: 100% !important;
+}
+
 .d-flex>.img-fluid {
     width: 8em;
     height: auto;
@@ -174,6 +215,7 @@ h5 {
 
 .subscribe {
     height: 90%;
+    background-color: #d7d9d9;
 }
 
 .subscribe-grid {
@@ -215,4 +257,60 @@ h5 {
 .col3 {
     position: relative;
     z-index: -20;
+}
+
+.page-footer {
+    border-top: 2px solid #f4f5f6;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.page-footer .brand svg {
+    display: block;
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+    fill: #f72210;
+}
+
+.page-footer .copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.page-footer .social {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.genericon {
+    font-size: 26px;
+    vertical-align: top;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.page-footer .social .genericon {
+    line-height: 24px;
+}
+
+.page-footer .footer-links {
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
+
+.page-footer .footer-links li {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 6px 0;
+    cursor: pointer;
 }
