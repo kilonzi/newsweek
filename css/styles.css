@@ -2,15 +2,19 @@
     .first {
         order: 1;
     }
+
     .second {
         order: 2;
     }
+
     .third {
         order: 3;
     }
+
     .fourth {
         order: 4;
     }
+
     .featured-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -18,9 +22,11 @@
         background: lightgray;
         width: 100%;
     }
+
     .featured-article {
         grid-column: 1 / span 2 !important;
     }
+
     .max-image-size {
         max-width: 252px;
         max-height: 172px;
@@ -33,6 +39,7 @@
         display: none !important;
         visibility: hidden;
     }
+
     .inline-md-down {
         display: -webkit-inline-box;
         padding-right: 2em;
@@ -44,9 +51,11 @@
         display: none !important;
         visibility: hidden;
     }
+
     nav {
         min-height: 6em;
     }
+
     svg {
         min-height: 60px;
     }
