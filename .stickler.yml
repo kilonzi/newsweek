@@ -1,0 +1,11 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+
+files:
+    ignore:
+       - 'css/reset.css'
+       - 'css/bootstrap.css'
+       - 'css/fonts.css'
+fixers:
+    enable: true       
